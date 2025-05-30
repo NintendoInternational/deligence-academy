@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+  --royal-bg: #2e003e;
+  --royal-gold: #f2c14e;
+  --light-bg: #f8f4ff;
+  --text-dark: #1f1f1f;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--light-bg);
+  color: var(--text-dark);
+  font-size: 18px;
+  line-height: 1.7;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: var(--royal-bg);
+  color: var(--royal-gold);
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border-bottom: 3px solid var(--royal-gold);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+  color: var(--royal-gold);
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: var(--royal-gold);
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+  color: #fff;
+  transform: scale(1.08);
+}
+
+main {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section {
+  background: #fff;
+  padding: 40px;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+h1, h2 {
+  color: var(--royal-bg);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+form {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+form input, form button {
+  display: block;
+  margin: 20px auto;
+  padding: 14px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+form input:focus {
+  border-color: var(--royal-bg);
+  outline: none;
+  box-shadow: 0 0 8px rgba(46, 0, 62, 0.2);
+}
+
+form button {
+  background-color: var(--royal-gold);
+  color: var(--royal-bg);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #e6b837;
+}
+
+table {
+  margin: 30px auto;
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+table th {
+  background-color: var(--royal-bg);
+  color: white;
+  padding: 16px;
+  font-weight: 600;
+}
+
+table td {
+  padding: 14px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+table tr:hover {
+  background-color: #f9f8ff;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 10px;
+  background: var(--royal-bg);
+  color: #fff;
+  font-size: 16px;
+  margin-top: 60px;
+  border-top: 2px solid var(--royal-gold);
+}
